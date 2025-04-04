@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Link AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Jeff Mutethia | Software Engineer & Product Designer</title>
+    <!-- Consider adding a favicon -->
+    <link rel="icon" href="./assets/arribion-link_@_2025_JEFF_MUTETHIA_All-Rights-Reserved-logo.png" type="image/png">
+</head>
+<body>
+
+    <!-- Background Video Container -->
+    <div class="background-video-container">
+        <video loop autoplay muted playsinline src="./assets/galaxy.mp4" class="background-video"></video>
+    </div>
+
+    <!-- Spline Viewer -->
+    <spline-viewer class="spline-bot" url="https://prod.spline.design/QV4MP9ne1NT-E5nx/scene.splinecode"></spline-viewer>
+
+    <header class="site-header">
+        <nav class="main-nav container">
+            <a href="#" class="nav-brand">
+                <img src="./assets/arribion-link_@_2025_JEFF_MUTETHIA_All-Rights-Reserved-logo.png" alt="Jeff Mutethia Logo"
+                    class="nav-logo">
+                <span class="my-name">JEFF MUTETHIA</span>
+            </a>
+    
+            <!-- Hamburger Button (Visible on mobile) -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false"
+                aria-controls="main-menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+    
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="main-menu">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro-section section-padding" id="home">
+            <div class="intro-container container">
+                <div class="intro-content">
+                    <span class="title-badge" data-aos="fade-up">Software Engineer</span>
+                    <h1 data-aos="fade-up" data-aos-delay="100">Crafting Seamless Digital Experiences: From Code to Pixel.</h1>
+                    <p class="intro-text" data-aos="fade-up" data-aos-delay="200">Hi, I'm Jeff Mutethia. A passionate Full-Stack Developer and Product Designer focused on building intuitive, user-centered web applications and digital products with robust functionality and elegant design.</p>
+                    <div class="intro-buttons" data-aos="fade-up" data-aos-delay="300">
+                        <a href="#projects" class="btn btn-primary">My Projects</a>
+                        <a href="https://www.linkedin.com/in/jeff-mutethia/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="intro-visual" data-aos="fade-left" data-aos-delay="200">
+                    <!-- Using a static image or a simpler animation might be better for performance than a video here -->
+                    <video class="glob-animation" loop muted autoplay playsinline src="./assets/glob.mp4" aria-label="Abstract globe animation"></video>
+                </div>
+            </div>
+        </section>
+
+        <section class="what-i-do-section section-padding" id="what-i-do">
+            <div class="container">
+                <h2 data-aos="fade-up">What I Do</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Bridging Technology and Design</p>
+                <div class="w-i-d-container">
+                    <div class="w-i-d-description" data-aos="fade-right" data-aos-delay="200">
+                        <p>
+                            I specialize in bringing ideas to life through the entire product lifecycle. From initial concept and user
+                            research (Product/UX Design) to visual design (UI Design) and full-stack implementation (MERN Stack,
+                            Python/Django/FastAPI), I ensure products are not only functional and scalable but also delightful to use.
+                        </p>
+                        <div class="tech-stack-container">
+                            <h3 class="tech-stack-title">Tech Stack</h3>
+                            <div class="tech-stack-icons">
+                                <!-- Add descriptive alt text -->
+                                <img class="tech-icon" src="./assets/tech-stack/2.png" alt="React" data-aos="zoom-in" data-aos-delay="300">
+                                <img class="tech-icon" src="./assets/tech-stack/3.png" alt="Node.js" data-aos="zoom-in" data-aos-delay="350">
+                                <img class="tech-icon" src="./assets/tech-stack/5.png" alt="JavaScript" data-aos="zoom-in" data-aos-delay="400">
+                                <img class="tech-icon" src="./assets/tech-stack/7.png" alt="Python" data-aos="zoom-in" data-aos-delay="450">
+                                <img class="tech-icon" src="./assets/tech-stack/8.png" alt="Django" data-aos="zoom-in" data-aos-delay="500">
+                                <img class="tech-icon" src="./assets/tech-stack/9.png" alt="FastAPI" data-aos="zoom-in" data-aos-delay="550">
+                                <img class="tech-icon" src="./assets/tech-stack/azure.jpg" alt="Azure" data-aos="zoom-in" data-aos-delay="600">
+                                <img class="tech-icon" src="./assets/tech-stack/git.jpg" alt="Git" data-aos="zoom-in" data-aos-delay="650">
+                                <img class="tech-icon" src="./assets/tech-stack/github.jpg" alt="GitHub" data-aos="zoom-in" data-aos-delay="700">
+                                <img class="tech-icon" src="./assets/tech-stack/mongodb.jpg" alt="MongoDB" data-aos="zoom-in" data-aos-delay="750">
+                                <img class="tech-icon" src="./assets/tech-stack/postgresql-Photoroom.jpg" alt="PostgreSQL" data-aos="zoom-in" data-aos-delay="800">
+                                <img class="tech-icon" src="./assets/tech-stack/nextjs.jpg" alt="Next.js" data-aos="zoom-in" data-aos-delay="850">
+                                <!-- Add more icons as needed -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-cards-container" data-aos="fade-left" data-aos-delay="300">
+                        <div class="work-card" data-aos="fade-up" data-aos-delay="400">
+                            <img src="./assets/images/web-development-3d-icon.png" alt="Web Development Icon" width="50px">
+                            <h3>Web Development</h3>
+                            <p>Professional Website & Application Development.</p>
+                        </div>
+                        <div class="work-card" data-aos="fade-up" data-aos-delay="500">
+                            <img src="./assets/images/tick.png" alt="Brand Identity Icon" width="50px">
+                            <h3>Brand Identity</h3>
+                            <p>Building innovative digital products & impactful brands.</p>
+                        </div>
+                        <div class="work-card" data-aos="fade-up" data-aos-delay="600">
+                            <img src="./assets/images/uiux.png" alt="UI/UX Icon" width="50px">
+                            <h3>UI/UX Design</h3>
+                            <p>Modern, high-quality, user-centered design.</p>
+                        </div>
+                        <div class="work-card" data-aos="fade-up" data-aos-delay="700">
+                            <img src="./assets/images/project management.png" alt="Project Management Icon" width="50px">
+                            <h3>Project Management</h3>
+                            <p>Guiding projects from concept to completion effectively.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Projects Section -->
+                <div class="featured-projects" id="projects" data-aos="fade-up">
+                     <h3 class="featured-title">Featured Projects</h3>
+                     <div class="project-grid">
+                         <!-- Example Project Card (Repeat 3 times or as needed) -->
+                         <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                             <img src="./assets/thubnails/skillbostAcademy.png" alt="Project 1 Screenshot"> <!-- Add actual project image -->
+                             <h4>Project Title 1</h4>
+                             <p>Brief description of the project, highlighting key technologies or achievements. Keep it concise.</p>
+                             <div class="project-links">
+                                 <a href="#" class="btn btn-small">View Demo</a>
+                                 <a href="#" class="btn btn-small btn-secondary">View Code</a>
+                             </div>
+                         </div>
+                         <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                              <img src="./assets/thubnails/product.png" alt="Project 2 Screenshot"> <!-- Add actual project image -->
+                             <h4>Project Title 2</h4>
+                             <p>Brief description of the project, highlighting key technologies or achievements. Keep it concise.</p>
+                              <div class="project-links">
+                                 <a href="#" class="btn btn-small">View Demo</a>
+                                 <a href="#" class="btn btn-small btn-secondary">View Code</a>
+                             </div>
+                         </div>
+                         <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                              <img src="./assets/thubnails/future.png" alt="Project 3 Screenshot"> <!-- Add actual project image -->
+                             <h4>Project Title 3</h4>
+                             <p>Brief description of the project, highlighting key technologies or achievements. Keep it concise.</p>
+                              <div class="project-links">
+                                 <a href="#" class="btn btn-small">View Demo</a>
+                                 <a href="#" class="btn btn-small btn-secondary">View Code</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+        </section>
+
+        <section class="about-section section-padding" id="about">
+            <div class="container about-container">
+                <h2 data-aos="fade-up">About Me</h2>
+                <div class="about-content-wrapper">
+                    <!-- Timeline Column -->
+                    <div class="timeline" data-aos="fade-right">
+                         <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                             <div class="timeline-dot"></div>
+                             <div class="timeline-content">
+                                 <h3>2025 - Present</h3>
+                                 <p>Software engineering Student / Web Developer{freelancer}</p>
+                             </div>
+                         </div>
+                         <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+                             <div class="timeline-dot"></div>
+                             <div class="timeline-content">
+                                 <h3>2020 - 2023</h3>
+                                 <p>Certificate of Secondary Education / Personal project</p>
+                             </div>
+                         </div>
+                         <!-- <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                             <div class="timeline-dot"></div>
+                             <div class="timeline-content">
+                                 <h3>20XX</h3>
+                                 <p>Significant Milestone / Early Experience</p>
+                             </div>
+                         </div> -->
+                          <div class="timeline-item" data-aos="fade-right" data-aos-delay="400">
+                             <div class="timeline-dot"></div>
+                             <div class="timeline-content">
+                                 <h3>Beginnings</h3>
+                                 <p>How the journey started...</p>
+                             </div>
+                         </div>
+                         <!-- Add more timeline items as needed -->
+                    </div>
+
+                    <!-- Text Content Column -->
+                    <div class="about-text" data-aos="fade-left" data-aos-delay="100">
+                        <div class="about-image-wrapper" data-aos="zoom-in" data-aos-delay="150">
+                           <img class="me-image" src="me.jpg" alt="Portrait of Jeff Mutethia">
+                        </div>
+                        <h3>Hello there!</h3>
+                        <p> I'm Jeff, a versatile technologist and designer driven by a passion for solving problems and creating
+                            impactful digital solutions. My journey spans the spectrum from architecting complex backend systems to crafting
+                            pixel-perfect user interfaces, always with the end-user experience at the forefront.
+                        </p>
+
+                        <h3>My Philosophy</h3>
+                        <p>
+                            I believe the best digital products emerge from a deep understanding of both user needs and technical possibilities. By
+                            integrating product design principles with full-stack development skills, I aim to create solutions that are not just
+                            functional and efficient but also intuitive, accessible, and aesthetically pleasing. I thrive in collaborative
+                            environments where design and engineering work hand-in-hand.
+                        </p>
+
+                        <h3>Development Expertise</h3>
+                        <p>
+                            On the development side, I'm proficient in the MERN stack (MongoDB, Express.js, React, Node.js) for building dynamic,
+                            modern web applications. I also have strong experience with Python, utilizing frameworks like Django and FastAPI for
+                            robust, scalable backend services and APIs. I value clean code, testability, and efficient architecture.
+                        </p>
+
+                        <h3>Design Expertise</h3>
+                        <p>
+                            As a UI/UX and Product Designer, I focus on user-centered methodologies. My process typically involves user research,
+                            persona creation, journey mapping, wireframing, prototyping, and usability testing to ensure the final product truly
+                            meets user needs and business goals. I leverage tools like Figma to create intuitive interfaces and compelling
+                            visual designs.
+                        </p>
+
+                        <h3>The Unique Advantage</h3>
+                        <p>
+                            My ability to operate effectively across both design and development domains allows me to bridge the common gap between
+                            these disciplines. I can translate design concepts into feasible technical implementations and inform design decisions
+                            with an understanding of technical constraints and possibilities, leading to smoother workflows and better end products.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section section-padding" id="skills">
+             <div class="container">
+                <h2 data-aos="fade-up">Skills</h2>
+                 <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Technologies & Tools I Work With</p>
+                <div class="skills-grid">
+                    <!-- Add skill categories or individual skills -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <h4>Frontend</h4>
+                        <ul>
+                            <li>HTML5, CSS3, JavaScript (ES6+),Typescript</li>
+                            <li>React, Next.js</li>
+                            <li>Responsive Design</li>
+                            <li>UI/UX Frameworks(TailwindCSS, Material-UI)</li>
+                        </ul>
+                    </div>
+                     <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                        <h4>Backend</h4>
+                        <ul>
+                            <li>Node.js, Express.js</li>
+                            <li>Python, Django, FastAPI</li>
+                            <li>RESTful APIs, GraphQL</li>
+                            <li>WebSocket</li>
+                            <li>Authentication(JWT,OAuth, SSO)</li>
+                        </ul>
+                    </div>
+                     <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                        <h4>Databases</h4>
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>PostgreSQL</li>
+                            <li>SQL & NoSQL Principles</li>
+                        </ul>
+                    </div>
+                     <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                        <h4>Design</h4>
+                        <ul>
+                            <li>UI/UX Design Principles</li>
+                            <li>Figma</li>
+                            <li>Prototyping, Wireframing</li>
+                            <li>User Research</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                        <h4>System Design & Scalability</h4>
+                        <ul>
+                            <li>Microservice architecture</li>
+                            <li>API Design</li>
+                            <li>High-Performance Database</li>
+                            <li>AI & Machine Learning</li>
+                        </ul>
+                    
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                    <h4>Tools & Others</h4>
+                    <ul>
+                        <li>Git, GitHub</li>
+                        <li>Docker </li>
+                        <li>Cloud Platforms (Azure,AWS)</li>
+                        <li>Agile Methodologies(Scrum master)</li>
+                    </ul>
+                </div>
+             </div>
+        </section>
+
+        <section class="contact-section section-padding" id="contact">
+             <div class="container">
+                <h2 data-aos="fade-up">Contact Me</h2>
+                 <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Let's build something great together!</p>
+                <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form" data-aos="fade-up" data-aos-delay="200"> <!-- Replace with your Formspree ID or backend endpoint -->
+                    <div class="form-group">
+                        <label for="sendersName">Your Name:</label>
+                        <input type="text" id="sendersName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sendersEmail">Your Email:</label>
+                        <input type="email" id="sendersEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sendersMessage">Message:</label>
+                        <textarea name="Message" id="sendersMessage" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+             </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                 <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                         <li><a href="#about">ABOUT</a></li>
+                         <li><a href="#projects">PROJECTS</a></li>
+                         <li><a href="#skills">SKILLS</a></li>
+                         <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-connect">
+                    <h3><i class="fa-solid fa-code-merge"></i> Let's Connect</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/jeff-mutethia/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/arribion-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-square-github"></i></a> <!-- Add your GitHub link -->
+                        <!-- Add other social links as needed -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+               <p>© <span id="current-year"></span> JEFF MUTETHIA . All Rights Reserved || <span style="color: dodgerblue;">arribion technologies</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script> -->
+    <script src="https://kit.fontawesome.com/3e1a4784df.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800, // Animation duration
+            once: true, // Whether animation should happen only once
+        });
+
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <!-- Optional: Add your custom script file if needed -->
+    <script src="script.js"></script>
+    <noscript>You need to enable JavaScript to view the full interactive experience of this site.</noscript>
+</body>
+</html>
